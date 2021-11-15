@@ -1,0 +1,211 @@
+*
+{
+
+box-sizing: border-box;
+
+}
+body{
+	font-family: Montserrat', sans-serif;
+	
+margin: 0;
+
+}
+
+#menu{
+	height: 80px;
+	padding:0 20px;
+	background-color: orange;
+}
+
+#logo {
+	font-size: :30px;
+	line-height: 80px;
+	color:#003666;
+	float: left;
+}
+
+nav{
+float: right;
+line-height: 80px;
+}
+
+nav a:link{
+	text-decoration: none;
+	margin-right: 25px;
+	color:#003666;
+
+}
+
+nav a:hover{
+	border-bottom: 2px solid #003666;
+
+}
+nav a:visited{
+	text-decoration: none;
+	margin-right: 25px;
+	color:#003666;
+
+}
+
+. ikon {
+	margin-right: 7px;
+	font-size: 16px;
+
+}
+
+#anasayfa{
+	
+	height: 600px;
+	background-image: 
+	url("../img/acık.jpg");
+	background-size:cover;
+	background-position: center;
+	background-attachment:fixed;
+}
+
+#black{
+	height:600px;
+	background-color:black;
+	opacity: 0.5;
+
+}
+#icerik{
+	position: absolute;
+top:50%;
+left:40%;
+transform: translate(-50%,-50%);
+color:white;
+font-size: 20px;
+}
+
+#hakkimda{
+	background-color: f8f9fa;
+	padding:50px;
+text-align: center;
+text-transform: capitalize;
+font-weight: 600;
+}
+
+h3{
+	font-size: :55px;
+	color: #003666;
+	text-shadow: 0px 1px 1px black;
+	font-weight: 600;
+}
+.container{
+	width: 1200px;
+	height: auto;
+	margin:auto;
+}
+#sol{
+	float:left;
+	border-right: 3px solid #445c6e;
+	font-size: 30px;
+	color: #445c6e;
+}
+#h5sol{
+	line-height: 2;
+	font-size: 20px;
+	font-weight: 600;
+}
+#h5sol,#sag{
+	margin: 0;
+	padding:0;
+margin-top: 20px;
+}
+span{
+	font-size: 35px;
+	margin-left: 7px;
+	color: #003666;
+	font-weight: 600;
+	float:left;
+}
+#sag{
+	float: right;
+	color: #999999;
+	text-align: center;
+
+}
+.img-fuid {
+	max-width: 100%;
+	height:auto;
+}
+.mt100{
+	margin-top: 80px;
+}
+#okuduklarım{
+background-color:#9FA8DA;
+padding: 50px;
+text-align: center;
+height: 700px;
+}
+.card{
+	width: 250px;
+	height: 580px;
+	border:1px solid#ddd;
+	padding: 0;
+display: inline-block;
+}
+.baslikcard{
+	font-size: 25px;
+	color:#003666;
+
+}
+.pcard{
+	color: 	#4A148C;
+}
+
+.card:hover{
+	border: 2px solid black;
+}
+
+#kütüphane {
+	background-color: #003666;
+	padding:50px;
+	height: 900px;
+	text-align:center; 
+}
+#kütüphaneh3{
+
+color:red;
+}
+.sutun-sol-sag{
+	width: 385px;
+	float: left;
+	padding: 50px;
+}
+
+.kütüphaneadı{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 12px;
+
+}
+.okunanlar{
+	color:orange;
+	font-size: 20px;
+}
+
+#iletisim{
+	background-color: orange;
+	padding:50px;
+	height: 600px;
+	text-align:center;
+
+}
+#iletiSimopak{
+	background:rgba(255,255,255,0.2);
+	padding: 30px 20px;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	height: 550px;
+	
+}
+
+
+
+
+
+
+
+
